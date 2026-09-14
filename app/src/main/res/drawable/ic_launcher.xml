@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Primary Background Circle in #4366f9 -->
+    <path
+        android:fillColor="#4366F9"
+        android:pathData="M54,54m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0" />
+
+    <!-- Precise Drop Shadow for 'A' -->
+    <path
+        android:fillColor="#26000000"
+        android:pathData="M23.5,76.5 L39.5,34.5 L49.5,34.5 L65.5,76.5 L55.5,76.5 L51.5,65.5 L37.5,65.5 L33.5,76.5 Z M44.5,46.5 L40.5,57.5 L48.5,57.5 Z" />
+
+    <!-- Precise Drop Shadow for '+' -->
+    <path
+        android:fillColor="#26000000"
+        android:pathData="M79.5,47.5 L83.5,47.5 L83.5,53.5 L89.5,53.5 L89.5,57.5 L83.5,57.5 L83.5,63.5 L79.5,63.5 L79.5,57.5 L73.5,57.5 L73.5,53.5 L79.5,53.5 Z" />
+
+    <!-- Sharp Solid White 'A' -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M22,75 L38,33 L48,33 L64,75 L54,75 L50,64 L36,64 L32,75 Z M43,45 L39,56 L47,56 Z" />
+
+    <!-- Sharp Solid White '+' -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M78,46 L82,46 L82,52 L88,52 L88,56 L82,56 L82,62 L78,62 L78,56 L72,56 L72,52 L78,52 Z" />
+
+</vector>
