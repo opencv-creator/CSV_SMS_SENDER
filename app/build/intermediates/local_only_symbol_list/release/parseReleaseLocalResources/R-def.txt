@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_education
+drawable ic_launcher
+drawable main_bg
+drawable splash_bg
+id countText
+id delayEdit
+id fileName
+id logScroll
+id logText
+id progress
+id selectButton
+id sendButton
+id statusText
+id stopButton
+layout activity_main
+layout activity_splash
+string app_name
+string app_tagline
+string desc_logo
+style AppTheme

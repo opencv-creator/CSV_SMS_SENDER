@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "in.co.jobguidance.app-release-28:/drawable_ic_education.xml.flat",
+        "source": "in.co.jobguidance.app-main-29:/drawable/ic_education.xml"
+    },
+    {
+        "merged": "in.co.jobguidance.app-release-28:/drawable_main_bg.xml.flat",
+        "source": "in.co.jobguidance.app-main-29:/drawable/main_bg.xml"
+    },
+    {
+        "merged": "in.co.jobguidance.app-release-28:/layout_activity_splash.xml.flat",
+        "source": "in.co.jobguidance.app-main-29:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "in.co.jobguidance.app-release-28:/drawable_ic_launcher.xml.flat",
+        "source": "in.co.jobguidance.app-main-29:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "in.co.jobguidance.app-release-28:/drawable_splash_bg.xml.flat",
+        "source": "in.co.jobguidance.app-main-29:/drawable/splash_bg.xml"
+    },
+    {
+        "merged": "in.co.jobguidance.app-release-28:/drawable-night_main_bg.xml.flat",
+        "source": "in.co.jobguidance.app-main-29:/drawable-night/main_bg.xml"
+    },
+    {
+        "merged": "in.co.jobguidance.app-release-28:/layout_activity_main.xml.flat",
+        "source": "in.co.jobguidance.app-main-29:/layout/activity_main.xml"
+    }
+]

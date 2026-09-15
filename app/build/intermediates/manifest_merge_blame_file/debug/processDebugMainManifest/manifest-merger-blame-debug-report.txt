@@ -1,0 +1,121 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="in.co.jobguidance"
+4    android:versionCode="2"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission android:name="android.permission.SEND_SMS" />
+11-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:2:5-66
+11-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:2:22-64
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:3:5-76
+12-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:3:22-74
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+13-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:4:5-88
+13-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:4:22-86
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:5:5-76
+14-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:5:22-74
+15
+16    <permission
+16-->[androidx.core:core:1.9.0] C:\Users\ShaliniRakesh\.gradle\caches\8.13\transforms\00eeb73d329f60914ee7cf1a9183d8d3\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+17        android:name="in.co.jobguidance.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.9.0] C:\Users\ShaliniRakesh\.gradle\caches\8.13\transforms\00eeb73d329f60914ee7cf1a9183d8d3\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.9.0] C:\Users\ShaliniRakesh\.gradle\caches\8.13\transforms\00eeb73d329f60914ee7cf1a9183d8d3\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="in.co.jobguidance.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.9.0] C:\Users\ShaliniRakesh\.gradle\caches\8.13\transforms\00eeb73d329f60914ee7cf1a9183d8d3\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.9.0] C:\Users\ShaliniRakesh\.gradle\caches\8.13\transforms\00eeb73d329f60914ee7cf1a9183d8d3\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:7:5-29:19
+23        android:allowBackup="true"
+23-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:11:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.9.0] C:\Users\ShaliniRakesh\.gradle\caches\8.13\transforms\00eeb73d329f60914ee7cf1a9183d8d3\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:icon="@drawable/ic_launcher"
+27-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:10:9-45
+28        android:label="@string/app_name"
+28-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:9:9-41
+29        android:supportsRtl="true"
+29-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:12:9-35
+30        android:testOnly="true"
+31        android:theme="@style/AppTheme" >
+31-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:8:9-40
+32        <activity
+32-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:13:9-18:20
+33            android:name="in.co.jobguidance.SplashActivity"
+33-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:13:19-66
+34            android:exported="true"
+34-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:13:104-127
+35            android:screenOrientation="portrait" >
+35-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:13:67-103
+36            <intent-filter>
+36-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:14:13-17:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:15:17-68
+37-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:15:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:16:17-76
+39-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:16:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:19:9-22:47
+43            android:name="in.co.jobguidance.MainActivity"
+43-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:19:19-64
+44            android:exported="true"
+44-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:21:13-36
+45            android:launchMode="singleTask"
+45-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:22:13-44
+46            android:screenOrientation="portrait" />
+46-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:20:13-49
+47
+48        <service
+48-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:23:9-28:19
+49            android:name="in.co.jobguidance.SmsService"
+49-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:23:18-61
+50            android:exported="false"
+50-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:25:13-37
+51            android:foregroundServiceType="specialUse" >
+51-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:24:13-55
+52            <property
+52-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:26:13-27:117
+53                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+53-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:26:23-82
+54                android:value="Sending SMS messages based on user-provided CSV data for job recruitment updates." />
+54-->C:\Users\ShaliniRakesh\Downloads\CSV_SMS_Sender\app\src\main\AndroidManifest.xml:27:17-114
+55        </service>
+56
+57        <provider
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ShaliniRakesh\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+58            android:name="androidx.startup.InitializationProvider"
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ShaliniRakesh\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+59            android:authorities="in.co.jobguidance.androidx-startup"
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ShaliniRakesh\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+60            android:exported="false" >
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ShaliniRakesh\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+61            <meta-data
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ShaliniRakesh\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ShaliniRakesh\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+63                android:value="androidx.startup" />
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ShaliniRakesh\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+64            <meta-data
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ShaliniRakesh\.gradle\caches\8.13\transforms\bf9829fca42290e1bbf97ad48fa7b15f\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ShaliniRakesh\.gradle\caches\8.13\transforms\bf9829fca42290e1bbf97ad48fa7b15f\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+66                android:value="androidx.startup" />
+66-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ShaliniRakesh\.gradle\caches\8.13\transforms\bf9829fca42290e1bbf97ad48fa7b15f\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+67        </provider>
+68    </application>
+69
+70</manifest>
